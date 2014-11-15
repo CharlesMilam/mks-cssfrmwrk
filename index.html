@@ -1,163 +1,94 @@
-<!doctype html>
-<html class="no-js" lang="en">
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation</title>
-    <link rel="stylesheet" href="stylesheets/app.css" />
-    <script src="bower_components/modernizr/modernizr.js"></script>
+      <meta charset="UTF-8">
+      <title>Eterna | Think of anything right now</title>
+      <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/foundation/5.0.2/css/foundation.min.css" />
+    <!-- put in font awesome -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" />
+    <style type="text/css">
+        *{
+          border: 1px solid red;
+          -moz-box-sizing: border-box;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+        }
+        /* You will put the rest of the styles here */
+    </style>
   </head>
-  <body>
-    <div class="row">
-      <div class="large-12 columns">
-        <h1>Welcome to Foundation</h1>
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="panel">
-          <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-          <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-          <p>Once you've exhausted the fun in this document, you should check out:</p>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-          <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-        </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-            </div>        
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="row">
-      <div class="large-8 medium-8 columns">
-        <h5>Here&rsquo;s your basic grid:</h5>
-        <!-- Grid Example -->
-
-        <div class="row">
-          <div class="large-12 columns">
-            <div class="callout panel">
-              <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-        </div>
-        
-        <hr />
-                
-        <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-        <form>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-12.columns" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <div class="row collapse">
-                <label>Input Label</label>
-                <div class="small-9 columns">
-                  <input type="text" placeholder="small-9.columns" />
-                </div>
-                <div class="small-3 columns">
-                  <span class="postfix">.com</span>
-                </div>
+    <body>
+      <!-- Begin in the next actions putting HTML here -->
+      <div class="container">
+        <div class="headerwrap row">
+            <div class="large-1 columns"></div>
+              <div class="large-2 columns">
+                <img src="images/logo.png" />
               </div>
-            </div>
+              <div class="large-4 columns">&nbsp;</div>
+              <div class="large-5 columns">
+                  <span class="nav-button active"><i class="fa fa-home"></i>&nbsp;Home&nbsp;<i class="fa fa-angle-down"></i></span>
+                  <span class="nav-button">Features&nbsp;<i class="fa fa-angle-down"></i></span>
+                  <span class="nav-button">Pages&nbsp;<i class="fa fa-angle-down"></i></span>
+                  <span class="nav-button">Portfolio&nbsp;<i class="fa fa-angle-down"></i></span>
+                  <span class="nav-button">Blog&nbsp;<i class="fa fa-angle-down"></i></span>
+                  <span class="nav-button">Contact&nbsp;</span>
+              </div>
           </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Select Box</label>
-              <select>
-                <option value="husker">Husker</option>
-                <option value="starbuck">Starbuck</option>
-                <option value="hotdog">Hot Dog</option>
-                <option value="apollo">Apollo</option>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-6 medium-6 columns">
-              <label>Choose Your Favorite</label>
-              <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-              <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-            </div>
-            <div class="large-6 medium-6 columns">
-              <label>Check these out</label>
-              <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-              <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Textarea Label</label>
-              <textarea placeholder="small-12.columns"></textarea>
-            </div>
-          </div>
-        </form>
-      </div>     
-
-      <div class="large-4 medium-4 columns">
-        <h5>Try one of these buttons:</h5>
-        <p><a href="#" class="small button">Simple Button</a><br/>
-        <a href="#" class="small radius button">Radius Button</a><br/>
-        <a href="#" class="small round button">Round Button</a><br/>            
-        <a href="#" class="medium success button">Success Btn</a><br/>
-        <a href="#" class="medium alert button">Alert Btn</a><br/>
-        <a href="#" class="medium secondary button">Secondary Btn</a></p>           
-        <div class="panel">
-          <h5>So many components, girl!</h5>
-          <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-          <a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>          
-        </div>
       </div>
-    </div>
+      <div class="hero-wrapper">
+          <div class="container">
+              <div class="row">
+                  <div class="large-1 columns">
+                      <div class="large-5 columns">
+                          <img src="images/iMac.png" />
+                      </div>
+                      <div class="large-5 columns">
+                          <h3>Put your <span class"standout">Opt in form</span></h3>
+                          <p><small>Forage vegan cold-pressed tousled, Godard High Life Neutra DIY jean shorts kale chips. Freegan single-origin coffee PBR&B hashtag Truffaut leggings, Intelligentsia keytar hoodie brunch American Apparel. High Life asymmetrical small batch skateboard tousled, XOXO kitsch Intelligentsia Kickstarter fap master cleanse seitan typewriter. High Life pork belly biodiesel keffiyeh deep v roof party. Irony Vice Carles, Helvetica direct trade put a bird on it organic gastropub kale chips McSweeney's Marfa cardigan fixie beard. Vegan occupy pour-over pork belly dreamcatcher. Sustainable art party Vice ennui.</small></p>
+                      </div>
+                      <input type="text" class="subscribe-email" />
+                      <input type="button" value="Subscribe" class="subscribe" />
+                  </div>
+              </div>
+          </div>
+      </div>
 
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+      <div class="features and footer container">
+          <div class="row">
+              <div class="large-4 columns">
+                <div class="feature-dot"><i class="fa fa-star"></i></div>
+                    <div><h4>High <strong>Quality</strong></h4></div>
+                    <div><small class="grey-text">Forage vegan cold-pressed tousled</small></div>
+                    <div><small class="learn-more-link">Learn More</small></div>
+              </div>
+              <div class="large-4 columns">
+                <div class="feature-dot"><i class"fa fa-dropbox"></i></div>
+                <div class="right-feature-side">
+                    <div><h4>Rich of <strong>Features</strong></h4></div>
+                    <div><small class="grey-text">Forage vegan cold-pressed tousled</small></div>
+                    <div><small class="learn-more-link">Learn More</small></div>
+                </div>
+              <div class="large-4 columns">
+                <div class="feature-dot"><i class="fa fa-laptop"></i></div>
+                <div class="right-feature-sides">
+                    <div><h4>Modern<strong>Design</strong></h4></div>
+                    <div><small class="grey-text">Forage vegan cold-pressed tousled</small></div>
+                    <div><small class="learn-more-link">Learn More</small></div>
+                </div>
+          </div>
+
+          <footer class="row">
+              <div class="large-3 columns"></div>
+              <div class="large-6 columns">
+                  <h3 class="text-center">Our <strong>Pricing</strong></h3>
+                  <p class="text-center"><small class="grey-text">Forage vegan cold-pressed tousled</small></p>
+              </div>
+              <div class="large-3 columns"></div>
+          </footer>
+      </div>
+
+
+    </body>
 </html>
