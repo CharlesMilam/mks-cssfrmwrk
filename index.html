@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="http://cdn.jsdelivr.net/foundation/5.0.2/css/foundation.min.css" />
     <!-- put in font awesome -->
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/enterna-style.css">
     <style type="text/css">
-        *{
+        {
           border: 1px solid red;
           -moz-box-sizing: border-box;
           -webkit-box-sizing: border-box;
@@ -19,68 +20,80 @@
   </head>
 
     <body>
-      <!-- Begin in the next actions putting HTML here -->
+      <!-- Header and navbar -->
       <div class="container">
         <div class="headerwrap row">
             <div class="large-1 columns"></div>
-              <div class="large-2 columns">
-                <img src="images/logo.png" />
-              </div>
-              <div class="large-4 columns">&nbsp;</div>
-              <div class="large-5 columns">
-                  <span class="nav-button active"><i class="fa fa-home"></i>&nbsp;Home&nbsp;<i class="fa fa-angle-down"></i></span>
-                  <span class="nav-button">Features&nbsp;<i class="fa fa-angle-down"></i></span>
-                  <span class="nav-button">Pages&nbsp;<i class="fa fa-angle-down"></i></span>
-                  <span class="nav-button">Portfolio&nbsp;<i class="fa fa-angle-down"></i></span>
-                  <span class="nav-button">Blog&nbsp;<i class="fa fa-angle-down"></i></span>
-                  <span class="nav-button">Contact&nbsp;</span>
-              </div>
+            <div class="large-2 columns">
+                <img src="images/logo.png" width="130px" />
+            </div>
+            <div class="large-4 columns">&nbsp;</div>
+            <div class="large-5 columns">
+              <span class="nav-button active"><i class="fa fa-home"></i>&nbsp;Home&nbsp;<i class="fa fa-angle-down"></i></span>
+              <span class="nav-button">Features&nbsp;<i class="fa fa-angle-down"></i></span>
+              <span class="nav-button">Pages&nbsp;<i class="fa fa-angle-down"></i></span>
+              <span class="nav-button">Portfolio&nbsp;<i class="fa fa-angle-down"></i></span>
+              <span class="nav-button">Blog&nbsp;<i class="fa fa-angle-down"></i></span>
+              <span class="nav-button">Contact&nbsp;</span>
+          </div>
           </div>
       </div>
-      <div class="hero-wrapper">
+
+      <!-- Main content -->
+      <div class="hero-wrapper" >
           <div class="container">
               <div class="row">
-                  <div class="large-1 columns">
-                      <div class="large-5 columns">
-                          <img src="images/iMac.png" />
+                  <div class="large-12 columns">
+
+                      <div class="large-6 columns">
+                          <img src="images/iMac.png" width="450px" />
                       </div>
-                      <div class="large-5 columns">
-                          <h3>Put your <span class"standout">Opt in form</span></h3>
-                          <p><small>Forage vegan cold-pressed tousled, Godard High Life Neutra DIY jean shorts kale chips. Freegan single-origin coffee PBR&B hashtag Truffaut leggings, Intelligentsia keytar hoodie brunch American Apparel. High Life asymmetrical small batch skateboard tousled, XOXO kitsch Intelligentsia Kickstarter fap master cleanse seitan typewriter. High Life pork belly biodiesel keffiyeh deep v roof party. Irony Vice Carles, Helvetica direct trade put a bird on it organic gastropub kale chips McSweeney's Marfa cardigan fixie beard. Vegan occupy pour-over pork belly dreamcatcher. Sustainable art party Vice ennui.</small></p>
+                      <div class="large-6 columns">
+                          <h3>Put your <span class="standout">Opt in form</span></h3>
+                          <p><small>Forage vegan cold-pressed tousled, Godard High Life Neutra DIY jean shorts kale chips. Freegan single-origin coffee PBRhashtag Truffaut leggings, Intelligentsia keytar hoodie brunch American Apparel.  </small></p>
+                          <div>
+                              <input type="text" class="subscribe-email">
+                              <input type="button" value="Subscribe" class="subscribe">
+                          </div>
                       </div>
-                      <input type="text" class="subscribe-email" />
-                      <input type="button" value="Subscribe" class="subscribe" />
+
                   </div>
               </div>
           </div>
       </div>
 
+      <!--  features -->
       <div class="features and footer container">
           <div class="row">
               <div class="large-4 columns">
-                <div class="feature-dot"><i class="fa fa-star"></i></div>
-                    <div><h4>High <strong>Quality</strong></h4></div>
-                    <div><small class="grey-text">Forage vegan cold-pressed tousled</small></div>
-                    <div><small class="learn-more-link">Learn More</small></div>
+                    <div class="feature-dot"><i class="fa fa-star"></i></div>
+                    <div class="right-feature-sides">
+                        <div><h4>High <strong>Quality</strong></h4></div>
+                        <div><small class="grey-text">Forage vegan cold-pressed tousled</small></div>
+                        <div><small class="learn-more-link">Learn More</small></div>
+                  </div>
               </div>
               <div class="large-4 columns">
-                <div class="feature-dot"><i class"fa fa-dropbox"></i></div>
-                <div class="right-feature-side">
-                    <div><h4>Rich of <strong>Features</strong></h4></div>
-                    <div><small class="grey-text">Forage vegan cold-pressed tousled</small></div>
-                    <div><small class="learn-more-link">Learn More</small></div>
-                </div>
+                    <div class="feature-dot"><i class="fa fa-dropbox"></i></div>
+                    <div class="right-feature-sides">
+                        <div><h4>Rich of <strong>Features</strong></h4></div>
+                        <div><small class="grey-text">Forage vegan cold-pressed tousled</small></div>
+                        <div><small class="learn-more-link">Learn More</small></div>
+                    </div>
+              </div>
               <div class="large-4 columns">
-                <div class="feature-dot"><i class="fa fa-laptop"></i></div>
-                <div class="right-feature-sides">
-                    <div><h4>Modern<strong>Design</strong></h4></div>
-                    <div><small class="grey-text">Forage vegan cold-pressed tousled</small></div>
-                    <div><small class="learn-more-link">Learn More</small></div>
-                </div>
+                    <div class="feature-dot"><i class="fa fa-laptop"></i></div>
+                    <div class="right-feature-sides">
+                        <div><h4>Modern <strong>Design</strong></h4></div>
+                        <div><small class="grey-text">Forage vegan cold-pressed tousled</small></div>
+                        <div><small class="learn-more-link">Learn More</small></div>
+                    </div>
+              </div>
           </div>
 
+          <!-- footer -->
           <footer class="row">
-              <div class="large-3 columns"></div>
+              <div class="large-3 columns">&nbsp;</div>
               <div class="large-6 columns">
                   <h3 class="text-center">Our <strong>Pricing</strong></h3>
                   <p class="text-center"><small class="grey-text">Forage vegan cold-pressed tousled</small></p>
